@@ -26,7 +26,7 @@ if ! [ -x "$(command -v curl)" ]; then
 
     ip4="Your server's IP"
 
-else; then
+else
 
     ip4=$(curl ifconfig.me)
 
